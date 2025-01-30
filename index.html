@@ -40,6 +40,7 @@
                         clifford: '#da373d',
                         Pamper: '#111111',
                         Categories: '#F9DF8A',
+                        prymary: '#FFDC26',
                     }
                 }
             }
@@ -48,7 +49,58 @@
 </head>
 
 <body>
+    <header>
+        <nav class="container mx-auto px-2 bg-[#FFF9F4] ">
+            <div class="flex justify-between mt-12">
+                <div class="flex gap-5 items-center">
+                    <div>
+                        <img src="./c1-assets/logo-header.png" alt="">
+                    </div>
+                    <div class="hidden lg:block">
+                        <h2 class="text-sora text-2xl font-normal">Browse <span class="text-prymary">4</span> Pets</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="hidden lg:block">
+                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Find a pet</button>
+                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Breeds</button>
+                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Contact us</button>
+                    </div>
 
+                </div>
+                <div class="flex gap-4 items-center">
+                    <div class="hidden lg:block">
+                        <button class="btn btn-link no-underline hover:no-underline"><i
+                                class="fa-solid fa-bell text-[#FFDC26] text-xl no-underline"></i></button>
+                        <button class="btn btn-link no-underline hover:no-underline"><i
+                                class="fa-solid fa-magnifying-glass text-xl text-black"></i></button>
+                    </div>
+                    <div class="hidden lg:block">
+                        <button class="btn btn-outline btn-warning px-8 text-xl">Login</button>
+                        <button
+                            class="btn text-2xl font-normal btn-ghos hover:bg-orange-400 bg-[#FFDC26]">Register</button>
+                    </div>
+
+                </div>
+                <div class="flex justify-end lg:hidden">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4  12h16M4 18h7"> />
+                            </svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu -translate-x-28 -translate-y-12 menu-sm dropdown-content mt-3 z-[1] p-2 bg-zinc-200 shadow bg-base-100 rounded-box w-28">
+                            <li class="hover:bg-[#FFDC26]"><a>Find a pet</a></li>
+                            <li class="hover:bg-[#FFDC26]"><a>Breeds</a></li>
+                            <li class="hover:bg-[#FFDC26]"><a>Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
 </body>
 
 </html>
