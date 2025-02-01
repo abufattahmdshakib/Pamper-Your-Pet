@@ -50,57 +50,151 @@
 
 <body>
     <header>
-        <nav class="container mx-auto px-2 bg-[#FFF9F4] ">
-            <div class="flex justify-between mt-12">
-                <div class="flex gap-5 items-center">
-                    <div>
-                        <img src="./c1-assets/logo-header.png" alt="">
-                    </div>
-                    <div class="hidden lg:block">
-                        <h2 class="text-sora text-2xl font-normal">Browse <span class="text-prymary">4</span> Pets</h2>
-                    </div>
-                </div>
-                <div>
-                    <div class="hidden lg:block">
-                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Find a pet</button>
-                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Breeds</button>
-                        <button class="btn text-2xl font-normal btn-ghost hover:bg-[#FFDC26]">Contact us</button>
+        <section class="container mx-auto">
+            <nav>
+                <div class=" bg-[#FFF9F4] px-2  mt-8 lg:mt-12">
+                    <div class="flex justify-between items-center">
+                        <div class="flex gap-5 items-center">
+                            <div>
+                                <img class="w-10" src="./c1-assets/logo-header.png" alt="">
+                            </div>
+                            <div class="hidden lg:block">
+                                <h2 class="text-sora text-xl font-normal">Browse <span class="text-prymary">4</span>
+                                    Pets
+                                </h2>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="hidden lg:block">
+                                <button class="btn text-xl font-normal btn-ghost hover:bg-[#FFDC26]">Find a pet</button>
+                                <button class="btn text-xl font-normal btn-ghost hover:bg-[#FFDC26]">Breeds</button>
+                                <button class="btn text-xl font-normal btn-ghost hover:bg-[#FFDC26]">Contact us</button>
+                            </div>
+
+                        </div>
+                        <div class="flex gap-4 items-center">
+                            <div class="hidden lg:block">
+                                <button class="btn btn-link no-underline hover:no-underline"><i
+                                        class="fa-solid fa-bell text-[#FFDC26] text-xl no-underline"></i></button>
+                                <button class="btn btn-link no-underline hover:no-underline"><i
+                                        class="fa-solid fa-magnifying-glass text-xl text-black"></i></button>
+                            </div>
+                            <div class="hidden lg:block">
+                                <button class="btn btn-outline btn-warning px-8 text-xl">Login</button>
+                                <button
+                                    class="btn text-xl font-normal btn-ghos hover:bg-orange-400 bg-[#FFDC26]">Register</button>
+                            </div>
+
+                        </div>
+                        <div class="flex justify-end lg:hidden">
+                            <div class="dropdown">
+                                <label tabindex="0" class="btn btn-ghost btn-circle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 6h16M4  12h16M4 18h7"> />
+                                    </svg>
+                                </label>
+                                <ul tabindex="0"
+                                    class="menu -translate-x-28 -translate-y-12 menu-sm dropdown-content mt-3 z-[1] p-2 bg-zinc-200 shadow bg-base-100 rounded-box w-28">
+                                    <li class="hover:bg-[#FFDC26]"><a>Find a pet</a></li>
+                                    <li class="hover:bg-[#FFDC26]"><a>Breeds</a></li>
+                                    <li class="hover:bg-[#FFDC26]"><a>Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-                <div class="flex gap-4 items-center">
-                    <div class="hidden lg:block">
-                        <button class="btn btn-link no-underline hover:no-underline"><i
-                                class="fa-solid fa-bell text-[#FFDC26] text-xl no-underline"></i></button>
-                        <button class="btn btn-link no-underline hover:no-underline"><i
-                                class="fa-solid fa-magnifying-glass text-xl text-black"></i></button>
-                    </div>
-                    <div class="hidden lg:block">
-                        <button class="btn btn-outline btn-warning px-8 text-xl">Login</button>
-                        <button
-                            class="btn text-2xl font-normal btn-ghos hover:bg-orange-400 bg-[#FFDC26]">Register</button>
-                    </div>
+                <hr class="border block lg:hidden border-yellow-400">
+            </nav>
+            <div class=" relative mt-8 mb-40 lg:mb-80 lg:mt-16">
 
+                <div class="mx-auto sticky z-10">
+                    <h1
+                        class="text-2xl px-2 lg:text-7xl adlam-display text-Pamper text-left w-72 lg:w-4/6 mb-2 lg:mb-6 ">
+                        Pamper Your Pet, Because They Deserve the Bes</h1>
+                    <p class="text-base lg:text-2xl sora text-Pamper w-72 px-2 lg:w-3/5 mb-2 lg:mb-6 text-left ">Discover
+                        a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make
+                        tails wag with joy!</p>
+                    <div class="my-2 p-2">
+                        <button class="btn text-sm lg:text-lg  px-5 lg:px-12 btn-warning">Find a pet</button>
+                    </div>
                 </div>
-                <div class="flex justify-end lg:hidden">
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost btn-circle">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4  12h16M4 18h7"> />
-                            </svg>
-                        </label>
-                        <ul tabindex="0"
-                            class="menu -translate-x-28 -translate-y-12 menu-sm dropdown-content mt-3 z-[1] p-2 bg-zinc-200 shadow bg-base-100 rounded-box w-28">
-                            <li class="hover:bg-[#FFDC26]"><a>Find a pet</a></li>
-                            <li class="hover:bg-[#FFDC26]"><a>Breeds</a></li>
-                            <li class="hover:bg-[#FFDC26]"><a>Contact us</a></li>
-                        </ul>
+                <div class="mx-auto z-0  absolute top-36 lg:-top-3  ">
+                    <img class="w-auto lg:w-[1300px] h-[200px] lg:h-[650px]" src="./c1-assets/cat-big.png" alt="">
+                </div>
+
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section class="container mx-auto">
+            <div class=" mx-auto">
+                <h2 class=" text-xl lg:text-4xl sora font-semibold px-2  lg:font-bold text-Pamper my-12">Browse By Categories</h2>
+
+                <div class="grid grid-cols-2 lg:grid-cols-6  px-2 gap-y-2 lg:gap-y-16 gap-x-2 mx-auto">
+
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-5">
+                            <img src="./c1-assets/dog-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-6 " />
+                        </figure>
+                        <div class="card-body   items-center text-Pamper text-center -mt-4">
+                            <h2 class="card-title text-xl lg:text-2xl sora">Dog</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-5">
+                            <img src="./c1-assets/fish-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-6 " />
+                        </figure>
+                        <div class="card-body items-center text-Pamper text-center -mt-4">
+                            <h2 class="card-title text-xl lg:text-2xl sora">Fish</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-5">
+                            <img src="./c1-assets/cat-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-6 " />
+                        </figure>
+                        <div class="card-body items-center text-Pamper text-center -mt-4">
+                            <h2 class="card-title text-xl lg:text-2xl sora">Cat</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-5">
+                            <img src="./c1-assets/bird-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-6 " />
+                        </figure>
+                        <div class="card-body items-center text-Pamper text-center -mt-4">
+                            <h2 class="card-title text-xl lg:text-2xl sora">Birds</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-4">
+                            <img src="./c1-assets/mouse-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-5 size-[75px] lg:size-[95px] " />
+                        </figure>
+                        <div class="card-body items-center text-Pamper text-center -mt-3">
+                            <h2 class="card-title text-center px-auto w-28 lg:w-auto text-xl lg:text-2xl sora">Small pet</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
+                    </div>
+                    <div class="card mx-auto w-36 lg:w-48 h-56 lg:h-64 bg-base-100 bg-[#F9DF8A] shadow-xl">
+                        <figure class="px-8 pt-4">
+                            <img src="./c1-assets/rabbit-cartoon.png" alt="Shoes" class="rounded-full bg-white p-3 lg:p-5 px-4 lg:px-6 " />
+                        </figure>
+                        <div class="card-body items-center text-Pamper text-center -mt-3">
+                            <h2 class="card-title text-xl lg:text-2xl sora">Rabit</h2>
+                            <p class="text-lg sora ">3 items</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
+
+        </section>
+    </main>
 </body>
 
 </html>
