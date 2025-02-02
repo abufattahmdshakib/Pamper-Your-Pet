@@ -30,6 +30,12 @@
         .sora {
             font-family: "Sora", serif;
         }
+
+        .card:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform;
+    transition: .6s;
+}
     </style>
 
 
@@ -143,12 +149,13 @@
         </section>
     </header>
     <!-- main section -->
-    <main>
+    <main class=" lg:card:hover">
+
         <!-- Extra  -->
         <section class="container mx-auto">
             <div>
                 <h1 class="text-4xl adlam-display font-semibold text-center lg:text-left">Our Amy Queen</h1>
-                <div class="card gap-0 my-16 mx-2 lg:gap-20 card-side bg-[#FFDC2680] shadow-xl">
+                <div class="card  gap-0 my-16 mx-2 lg:gap-20 card-side bg-[#FFDC2680] shadow-xl">
                     <figure>
                         <img class="w-[500px] h-[480px]" src="./c2-assets/Queen.jpg" alt="Movie" />
                     </figure>
@@ -544,7 +551,7 @@
             <div class="lg:flex gap-8 flex-none">
                 <!-- Pet Grooming Mitt -->
                 <div
-                    class="rounded-xl mx-auto  bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] mb-10 lg:mb-12 mt-16 lg:mt-12  h-80 lg:h-[400px] w-[350px] lg:w-3/5 grid grid-cols-2 gap-2 ">
+                    class="rounded-xl mx-auto bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] mb-10 lg:mb-12 mt-16 lg:mt-12  h-80 lg:h-[400px] w-[350px] lg:w-3/5 grid grid-cols-2 gap-2 ">
 
                     <div class=" mx-auto w-56 h-56 text-start pl-3 lg:pl-6 pt-0 lg:pt-16 flex-1  mt-12">
                         <h4 class=" hidden lg:flex lg:text-xl adlam-display text-Pamper text-left mb-1 lg:mb-3 ">Under
